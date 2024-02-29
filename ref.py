@@ -1,4 +1,2 @@
+# RE-CHECK STRING EXERCISES 1 - 24
 
-str = "abc"
-new_str = str[1 + 1] 
-print(new_str) # cd
