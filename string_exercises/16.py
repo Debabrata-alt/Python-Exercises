@@ -3,7 +3,7 @@
 
 def lexicographic_sort(string):
   # sort in ascending order
-  sorted_list = sorted(string, key=str.upper)
+  sorted_list = sorted(string, key = str.upper)
   sorted_string = "".join(str for str in sorted_list)
   return sorted_string
 
