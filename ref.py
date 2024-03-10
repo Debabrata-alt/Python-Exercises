@@ -1,5 +1,5 @@
 # RE-CHECK STRING EXERCISES 1 - 24
-# Lists - upto 95
+# Lists - upto 180
 
 #  What is the alternative to w3resource?
 

@@ -12,9 +12,11 @@ def uncommon_chars_concat(s1, s2):
 
   # List comprehension to get uncommon chars from each string
   result = [ch for ch in s1 if ch not in common_chars] + [ch for ch in s2 if ch not in common_chars]
+  
+  print(result) # ['p', 'q', 'r', 'x', 'y', 'z']
 
   # Join characters into string
-  return(''.join(result))
+  return("".join(result))
 
 
 print(uncommon_chars_concat("abcdpqr", "xyzabcd")) # pqrxyz
