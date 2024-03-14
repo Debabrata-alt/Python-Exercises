@@ -5,7 +5,6 @@
 # Original list elements: [-4, 5, -2, 0, 3, -1, 4, 9]
 # Sum of two lowest negative numbers of the said array of integers: -6
 
-
 list1 = [-14, 15, -10, -11, -12, -13, 16, 17, 18, 19, 20]
 list2 = [-4, 5, -2, 0, 3, -1, 4, 9]
 
