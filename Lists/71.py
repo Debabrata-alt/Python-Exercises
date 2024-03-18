@@ -7,7 +7,7 @@
 from random import choice
 
 nums1 = [2, 9, 10]
-nums2 = [-5,0,4,3,2]
+nums2 = [-5, 0, 4, 3, 2]
 
 def func(nums, start_range, end_range):
   return choice([i for i in range(start_range, end_range + 1) if i not in nums])

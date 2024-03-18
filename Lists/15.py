@@ -1,5 +1,21 @@
 # Write a Python program to flatten a shallow list.
 
+org_list = [[2, 4, 3], [1, 5, 6], [9], [7, 9, 0]]
+
+newList = list(e for el in org_list for e in el)
+
+print(newList) 
+# [2, 4, 3, 1, 5, 6, 9, 7, 9, 0]
+
+#//////////////////////////////////////////
+
+newList = org_list[0] + org_list[1] + org_list[2] +  org_list[3]
+
+print(newList)
+# [2, 4, 3, 1, 5, 6, 9, 7, 9, 0]
+
+#/////////////////////////////////////////////////////////////////////////////////////////////
+
 # Import the 'itertools' module, which provides various functions for working with iterators
 import itertools
 

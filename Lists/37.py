@@ -7,10 +7,10 @@ org_list = ['Python', 'list', 'exercises', 'practice', 'solution']
 def scramble(input_list):
   new_list = []
   for el in input_list:
-    el_list = list(el)
-    shuffle(el_list)
-    el_str = "".join(el_list)
-    new_list.append(el_str)
+    char_list = list(el)
+    shuffle(char_list)
+    char_str = "".join(char_list)
+    new_list.append(char_str)
   return new_list
 
 

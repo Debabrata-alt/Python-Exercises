@@ -17,10 +17,10 @@ users = {
 }
 
 def func(d, selectors):
-  # Use 'reduce' to successively apply 'getitem' with each element in 'selectors' on the dictionary 'd'.
-  # This effectively drills down into the dictionary using the sequence of selectors.
-  # NOTE: getitem() is same as a[b].
-  return reduce(getitem, selectors, d)
+    # Use 'reduce' to successively apply 'getitem' with each element in 'selectors' on the dictionary 'd'.
+    # This effectively drills down into the dictionary using the sequence of selectors.
+    # NOTE: getitem() is same as a[b].
+    return reduce(getitem, selectors, d)
 
 
 print(func(users, ['Carla', 'name', 'last'])) # Russell

@@ -6,6 +6,44 @@
 # bc
 # bd
 
+myDict = {'1':['a','b'], '2':['c','d']}
+
+result = [x + y for x in myDict["1"] for y in myDict["2"]]
+
+print(result) 
+# ['ac', 'ad', 'bc', 'bd']
+
+#/////////////////////////////////////////////////////////////////////////////////////////
+
+myDict = {'1':['a','b'], '2':['c','d']}
+
+print(myDict.values()) # dict_values([['a', 'b'], ['c', 'd']])
+
+myList = list(myDict.values()) 
+
+print(myList) # [['a', 'b'], ['c', 'd']]
+
+newList = [x + y for x in myList[0] for y in myList[1]]
+
+print(newList)
+# ['ac', 'ad', 'bc', 'bd']
+
+#////////////////////////////////////////////////////////////////////////////////////////
+
+myDict = {'1':['a','b'], '2':['c','d']}
+result = []
+
+list1 = myDict["1"]
+list2 = myDict["2"]
+
+for i in list1:
+  for j in list2:
+    result.append(i + j) 
+
+print(result) # ['ac', 'ad', 'bc', 'bd']
+
+#////////////////////////////////////////////////////////////////////////////////////////
+
 from itertools import product
 
 myDict = {'1':['a','b'], '2':['c','d']}

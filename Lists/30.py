@@ -4,6 +4,25 @@
 # After packing consecutive duplicates of the said list elements into sublists:
 # [[0, 0], [1], [2], [3], [4, 4], [5], [6, 6, 6], [7], [8], [9], [4, 4]]
 
+myList = [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]
+
+# initialize an empty list
+newList = list()
+
+previous_val = None
+
+for el in myList:
+  if previous_val == el:
+    newList[-1] += [el]
+  else:
+    newList.append([el])
+  previous_val = el
+
+print(newList)
+# [[0, 0], [1], [2], [3], [4, 4], [5], [6, 6, 6], [7], [8], [9], [4, 4]]
+
+#/////////////////////////////////////////////////////////////////////////////////////////////
+
 from itertools import groupby
 
 my_list = [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]

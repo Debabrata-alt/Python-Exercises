@@ -2,15 +2,27 @@
 
 my_dict = {'a': 500, 'b': 5874, 'c': 560, 'd': 400, 'e': 5874, 'f': 20}
 
-sort_list_3 = sorted([my_dict[key] for key in my_dict], reverse=True)[:3]
+# sort values
+sort_vals = sorted([my_dict[key] for key in my_dict], reverse=True)[:3]
 
-print(sort_list_3)
+print(sort_vals)
 # [5874, 5874, 560]
 
-keys = list(key for key in my_dict if my_dict[key] in sort_list_3)
+#////////////////////////
 
-print(keys)
-# ['b', 'c', 'e']
+# sort values (map method)
+sort_vals = sorted(list(map(lambda x: my_dict[x], my_dict)), reverse=True)[:3]
+
+print(sort_vals)
+# [5874, 5874, 560]
+
+#////////////////////////
+
+# sort keys
+sort_keys = sorted(my_dict, key=lambda x: my_dict[x], reverse=True)[:3]
+
+print(sort_keys)
+# ['b', 'e', 'c']
 
 #///////////////////////////////////////////////////////////////////////////
 

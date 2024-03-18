@@ -40,7 +40,7 @@ print(longest_Substring("efgabcdefhjcd", "xswerzmabcdefbcdwd")) # abcdef
 
 # NOTE: 
 
-# print(longest_Substring("efgabcdehjcd", "xswerzmabcdebcdwd")) # abcdef
+# print(longest_Substring("efgabcdefhjcd", "xswerzmabcdefbcdwd")) # abcdef
 
 # match = Match(a=3, b=7, size=6)
 

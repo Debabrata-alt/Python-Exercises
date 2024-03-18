@@ -4,6 +4,24 @@
 # ("aabbbcdeffff") -> "abcdef"
 # ("Yellowwooddoor") -> "Yelowodor"
 
+
+def func(inp_str):
+  final_str = ""
+  previous_char = None
+  
+  for char in inp_str:
+    if char != previous_char:
+      final_str += char
+    previous_char = char
+  
+  return final_str
+
+print(func("Red Green White")) # Red Gren White
+print(func("aabbbcdeffff")) # abcdef
+print(func("Yellowwooddoor")) # Yelowodor
+
+#////////////////////////////////////////////////////////////////////////////////////////////
+
 from itertools import groupby
 
 def func(string):

@@ -1,6 +1,6 @@
 # RE-CHECK STRING EXERCISES 1 - 24
 # REVIEW (STUDENTS' ANSWERS) ALL PROBLEMS BEFORE DICTIONARIES - 27
-# Dictionaries: 66
+# 
 
 #  What is the alternative to w3resource?
 
