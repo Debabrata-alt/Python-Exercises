@@ -6,8 +6,15 @@ def func(string):
   uniq_chars = "".join(s for s in string if string.count(s) == 1)
   mul_chars = "".join(s for s in string if string.count(s) > 1)
   
+  print(uniq_chars) # w3souc, egh
+  print(mul_chars) # rere, aabbccff
+  
   # consecutive characters are excluded in the Orderdict keys
   dict_mul_chars = OrderedDict.fromkeys(mul_chars)
+  
+  print(dict_mul_chars)
+  # (1) OrderedDict({'r': None, 'e': None})
+  # (2) OrderedDict({'a': None, 'b': None, 'c': None, 'f': None})
   
   mul_chars_final = "".join(dict_mul_chars.keys())
   

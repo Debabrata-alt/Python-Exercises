@@ -2,6 +2,7 @@
 
 numList = [0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4, 2]
 
+# initialize an empty list
 newList = list()
 previous_val = None
 
