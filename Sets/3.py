@@ -4,7 +4,7 @@ setx = set(["green", "blue"])
 
 sety = set(["blue", "yellow"])
 
-# Find the intersection of 'setx' and 'sety' and store it in 'setz'
+# Find the intersection of 'setx' and 'sety' (keep only the duplicates)
 setz = setx & sety
 
 print(setz) # {'blue'}
