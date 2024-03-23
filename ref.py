@@ -1,6 +1,6 @@
 # RE-CHECK STRING EXERCISES 1 - 24
 # REVIEW (STUDENTS' ANSWERS) ALL PROBLEMS BEFORE DICTIONARIES - 27
-# Lambada - 45
+# Map -
 
 #  What is the alternative to w3resource?
 
