@@ -1,6 +1,6 @@
 # RE-CHECK STRING EXERCISES 1 - 24
 # REVIEW (STUDENTS' ANSWERS) ALL PROBLEMS BEFORE DICTIONARIES - 27
-# Set - 13
+# File I/O - 5
 
 #  What is the alternative to w3resource?
 

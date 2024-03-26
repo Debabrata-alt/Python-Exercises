@@ -1,0 +1,8 @@
+["Red", "Green", "White", "Black", "Pink", "Yellow"]
+['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+Red
+Green
+White
+Black
+Pink
+Yellow

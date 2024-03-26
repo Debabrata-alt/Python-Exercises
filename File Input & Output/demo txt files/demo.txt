@@ -1,0 +1,11 @@
+What is Python language?                                                
+Python is a widely used high-level, general-purpose, interpreted, dynamic programming language.Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than possible in 
+languages such as C++ or Java. 
+Python supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles. It features a dynamic type system and automatic memory management and has a large and comprehensive standard library.The best way we learn anything is by practice and exercise questions. We have started this section for those (beginner to intermediate) who are familiar with Python.
+Depending on the project, your documentation might include some or all of the following components:
+An introduction should give a very short overview of what can be done with the product, using one or two extremely simplified use cases. This is the thirty-second pitch for your project.
+A tutorial should show some primary use cases in more detail. The reader will follow a step-by-step procedure to set-up a working prototype.
+An API reference is typically generated from the code (see docstrings). It will list all publicly available interfaces, parameters, and return values.
+Developer documentation is intended for potential contributors. This can include code convention and general design strategy of the project.
+New line is appended at the end.
+This is the current last line.

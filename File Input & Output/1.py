@@ -8,7 +8,7 @@ import json
 myDict = {'students': [{'firstName': 'Nikki', 'lastName': 'Roysden'}, {'firstName': 'Mervin', 'lastName': 'Friedland'}, {'firstName': 'Aron ', 'lastName': 'Wilkins'}], 'teachers': [{'firstName': 'Amberly', 'lastName': 'Calico'}, {'firstName': 'Regine', 'lastName': 'Agtarap'}]}
 
 
-with open("demo.txt", mode="w") as f:
+with open("demo9.txt", mode="w") as f:
   f.write(json.dumps(myDict, indent=4, sort_keys=True))
 
 
